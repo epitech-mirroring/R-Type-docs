@@ -43,53 +43,55 @@ All the entities inherit from the IEntity class, which defines the basic propert
 title: Entity Class Diagram
 ---
 classDiagram
-    IEntity <|-- AEntity : Inheritance
-    AEntity <|-- AShip : Inheritance
-    AEntity <|-- ABullet : Inheritance
-    ABullet <|-- ClassicBullet : Inheritance
-    AShip <|-- BasicEnemy : Inheritance
-    AShip <|-- Player : Inheritance
-    
-    class IEntity {
-        update()
-        isColliding()
-        onCollision()
-    }
-    class AEntity{
-        int id
-        EntityType type
-        float posX
-        float posY
-        float speed
-        int width
-        int heitgh
-        int damage
-        int life
-        std::vector< EntityDirection> directions
+    IEntity <|-- AEntity
+    AEntity <|-- AShip
+    AEntity <|-- ABullet
+    ABullet <|-- ClassicBullet
+    AShip <|-- BasicEnemy
+    AShip <|-- Player
 
-        getters()
-        setters()
-        move()
+    class IEntity {
+        +update()
+        +isColliding()
+        +onCollision()
     }
-    class AShip{
-        bool isShooting
-        float shootCooldown
-        float currentShootCooldown
-        setters()
-        getters()
+    class AEntity {
+        +int id
+        +EntityType type
+        +float posX
+        +float posY
+        +float speed
+        +int width
+        +int height
+        +int damage
+        +int life
+        +std::vector<EntityDirection> directions
+
+        +getters()
+        +setters()
+        +move()
+    }
+    class AShip {
+        +bool isShooting
+        +float shootCooldown
+        +float currentShootCooldown
+
+        +setters()
+        +getters()
     }
     class Player {
-        int score
-        setters()
-        getters()
-        addScore()
-        update()
+        +int score
+
+        +setters()
+        +getters()
+        +addScore()
+        +update()
     }
-    class BasicEnemy{
-        update()
+    class BasicEnemy {
+        +update()
     }
-    class ABullet{
-        update()
+    class ABullet {
+        +update()
     }
 ```
 
