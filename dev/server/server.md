@@ -1,3 +1,13 @@
+---
+title: server
+description: 
+published: true
+date: 2024-10-24T00:07:48.218Z
+tags: 
+editor: markdown
+dateCreated: 2024-10-23T23:53:15.053Z
+---
+
 # R-Type Reborn : Server
 
 ## Table of Contents
@@ -39,9 +49,6 @@ Entities are the basic building blocks of the game world. Each entity represents
 All the entities inherit from the IEntity class, which defines the basic properties and methods that all entities share. They are all contained in an Entity Manager that handles their creation, destruction, and updating.
 
 ```mermaid
----
-title: Entity Class Diagram
----
 classDiagram
     IEntity <|-- AEntity
     AEntity <|-- AShip
