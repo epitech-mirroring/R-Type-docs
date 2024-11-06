@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['_5fclient_5fid_0',['_client_id',['../classATCPDTO.html#a8c76b2f1d11560927558038c4bc820ba',1,'ATCPDTO']]],
+  ['_5fcurrentshootcooldown_1',['_currentShootCooldown',['../classAShip.html#a96dfbeaddea5a67bc972ec57a592ee96',1,'AShip']]],
+  ['_5fdamage_2',['_damage',['../classAEntity.html#a101e831da43d2bc9daf17d2c9f1441a9',1,'AEntity']]],
+  ['_5fdirections_3',['_directions',['../classAEntity.html#a77bf5446358161d15ddb8fb8f9c7d88f',1,'AEntity']]],
+  ['_5fentityid_4',['_entityId',['../classAEntityDTO.html#a7311cbf720115dfd794f2abcd8fad895',1,'AEntityDTO']]],
+  ['_5fentitytype_5',['_entityType',['../classAEntity.html#af50d09598c66e888fd668ab474ec7090',1,'AEntity::_entityType'],['../classAEntityDTO.html#ad7d46fe67a1d584975967616baad3d5b',1,'AEntityDTO::_entityType']]],
+  ['_5fheight_6',['_height',['../classAEntity.html#a4c9c2baf7a09892b2a5a02fedce2918d',1,'AEntity']]],
+  ['_5fid_7',['_id',['../classAEntity.html#a4af1c2bb2644bc455e061c903efd79a5',1,'AEntity']]],
+  ['_5fisshooting_8',['_isShooting',['../classAShip.html#a1781887533a23ff83486cde4ef6f38aa',1,'AShip']]],
+  ['_5flife_9',['_life',['../classAEntity.html#a75295dc4a1da10f3fd9b8c1d029031fb',1,'AEntity']]],
+  ['_5fplayerid_10',['_playerId',['../classAPlayerDTO.html#acd1a66935b02fb36f1d1b60f68fa261a',1,'APlayerDTO']]],
+  ['_5fposx_11',['_posX',['../classAEntity.html#aab98bb0a834d41b8a20f5146d262efb4',1,'AEntity']]],
+  ['_5fposy_12',['_posY',['../classAEntity.html#a30f2214d75f585c4dfa5855d3c85d63a',1,'AEntity']]],
+  ['_5fshootcooldown_13',['_shootCooldown',['../classAShip.html#a255b80cecac3460446911556be46ad7a',1,'AShip']]],
+  ['_5fspeed_14',['_speed',['../classAEntity.html#a0e91aac97e0787ce85c3fc2be793e91e',1,'AEntity']]],
+  ['_5fwidth_15',['_width',['../classAEntity.html#af74aeaa4e5f01211fc9e47bfdcbf179d',1,'AEntity']]]
+];
